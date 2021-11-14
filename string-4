@@ -1,0 +1,6 @@
+str=input("enter the string")
+l=len(str)
+if l%4==0:
+    print(str[::-1])
+else:
+    print(str)
